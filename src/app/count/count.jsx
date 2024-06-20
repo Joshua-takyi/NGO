@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function Count() {
 	return (
 		<>
-			<article className="">
+			<article>
 				<div className="relative h-[40dvh] w-full">
 					<div className="absolute opacity-[0.5] bg-gradient-to-r bg-yellow-300 via-amber-300 from-yellow-400 w-[100%] h-[100%]"></div>
 					<section className="grid md:grid-cols-4 grid-cols-2 gap-5 place-items-center bg-[url('/vid.jpg')] h-[40dvh] bg-cover bg-center text-white ">
@@ -36,11 +36,9 @@ export default function Count() {
 							</div>
 						</div>
 					</section>
+					<Footer />
 				</div>
 			</article>
-			<div className="z-50 relative lg:top-[30em] md:top-[25em] top-[15em]">
-				<Footer />
-			</div>
 		</>
 	);
 }
