@@ -14,21 +14,27 @@ export default function Courses() {
 				</p>
 			</div>
 			<section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-20 lg:space-x-10  place-items-center gap-10">
-				<CoursesCard
-					header="Many different ways today to find"
-					description="Explore flexible options to access our transformative courses on sustainable development, human rights, and community empowerment."
-					image={"/adobe.jpeg"}
-				/>
-				<CoursesCard
-					header="Keep Teachers in classroom"
-					description="Training to support educators creating lasting community impact"
-					image={"/AdobeStock_1.jpeg"}
-				/>
-				<CoursesCard
-					header="Raising funds to helping little hands"
-					description="Fundraise to provide underprivileged children access to education, nutrition and healthcare for a better future."
-					image={"/AdobeStock_3.jpeg"}
-				/>
+				<div>
+					<CoursesCard
+						header="Many different ways today to find"
+						description="Explore flexible options to access our transformative courses on sustainable development, human rights, and community empowerment."
+						image={"/adobe.jpeg"}
+					/>
+				</div>
+				<div>
+					<CoursesCard
+						header="Keep Teachers in classroom"
+						description="Training to support educators creating lasting community impact"
+						image={"/AdobeStock_1.jpeg"}
+					/>
+				</div>
+				<div>
+					<CoursesCard
+						header="Raising funds to helping little hands"
+						description="Fundraise to provide underprivileged children access to education, nutrition and healthcare for a better future."
+						image={"/AdobeStock_3.jpeg"}
+					/>
+				</div>
 			</section>
 		</div>
 	);
