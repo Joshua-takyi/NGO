@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Logos() {
 	return (
-		<section className=" flex justify-center lg:px-44 overflow-hidden lg:py-20 p-5 mr-auto ">
+		<section className=" flex justify-center lg:px-44 overflow-hidden  p-5 ">
 			<div className="grid md:grid-cols-4 md:gap-12 gap-5 items-center place-items-center grid-cols-2 hue-rotate-180">
 				<Image
 					src="/unicef-3.svg"

@@ -25,7 +25,7 @@ export default function Hero() {
 		},
 	};
 	return (
-		<MotionSec className="lg:h-[100dvh] bg-[url('/landing.jpg')] bg-cover bg-no-repeat bg-center lg:px-44 p-4 md:h-[50dvh] h-[70dvh] ">
+		<MotionSec className=" w-full lg:h-[100dvh] bg-[url('/landing.jpg')] bg-cover bg-no-repeat bg-center lg:px-44 p-4 md:h-[50dvh] h-[70dvh] ">
 			<MotionDiv className="flex lg:flex-row flex-1 flex-col lg:justify-start text-white justify-center h-full">
 				<MotionDiv
 					className={`${pop.className} lg:w-2/3 flex flex-col justify-center  leading-tight p-2  gap-4`}

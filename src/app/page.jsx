@@ -9,7 +9,7 @@ import VidSec from "./vidSec/vid";
 
 export default function Home() {
 	return (
-		<div className="App">
+		<>
 			<Header />
 			<Hero />
 			<Logos />
@@ -18,6 +18,6 @@ export default function Home() {
 			<VidSec />
 			<Courses />
 			<Count />
-		</div>
+		</>
 	);
 }

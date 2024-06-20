@@ -24,7 +24,7 @@ export function CoursesCard({ header, description, image }) {
 				</CardTitle>
 				<CardDescription className="p-2"></CardDescription>
 			</CardHeader>
-			<CardContent className="p-4 flex flex-col text-md text-muted-foreground gap-4">
+			<CardContent className="p-4 flex flex-col text-md text-muted-foreground gap-4 text-center justify-center">
 				<h5 className="font-bold text-black lg:text-[23px]">{header}</h5>
 				<p>{description}</p>
 			</CardContent>

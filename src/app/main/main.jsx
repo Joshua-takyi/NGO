@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Main() {
 	return (
-		<main className="bg-[#F7F9F2] lg:px-44 lg:my-24 md:my-10">
+		<main className="bg-[#F7F9F2] lg:px-44  md:my-10">
 			<div className="flex lg:flex-row lg:py-20 p-2 flex-col gap-14 ">
 				<div className="lg:w-1/2 flex flex-col p-2 gap-4 justify-center lg:justify-start items-center lg:items-start">
 					<h2 className="lg:text-[60px] font-bold text-[27px] text-pretty leading-tight">

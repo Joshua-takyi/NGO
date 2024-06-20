@@ -13,7 +13,7 @@ export default function Courses() {
 					experts.
 				</p>
 			</div>
-			<section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-20 lg:space-x-10  place-items-center">
+			<section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-20 lg:space-x-10  place-items-center gap-10">
 				<CoursesCard
 					header="Many different ways today to find"
 					description="Explore flexible options to access our transformative courses on sustainable development, human rights, and community empowerment."

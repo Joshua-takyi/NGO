@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Mid() {
 	return (
-		<section className="lg:px-44 flex md:flex-row  lg:py-20 md:my-24 flex-col  gap-5 p-4 my-5 ">
+		<section className="lg:px-44 flex md:flex-row  lg:py-20  flex-col  gap-5 p-4 my-5 ">
 			<div className="md:w-1/2 md:justify-start flex justify-center">
 				<Image
 					src={"/mid.jpg"}
