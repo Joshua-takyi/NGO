@@ -1,4 +1,4 @@
-import { CountMaker } from "@/components/countup/CountMaker";
+import { CountMaker } from "@/components/countMaker/countAdd";
 import Footer from "@/components/footer/footer";
 import { Button } from "@/components/ui/button";
 
