@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export function CoursesCard({ header, description, image }) {
 	return (
-		<Card className="lg:w-[330px] lg:h-[500px] md:h-[460px] md:w-[350px] w-full h-auto overflow-hidden">
+		<Card className="lg:w-[330px] lg:h-[500px] md:h-[460px] md:w-[300px] w-full h-auto overflow-hidden">
 			<CardHeader className="overflow-hidden">
 				<CardTitle className="h-full">
 					<Image
